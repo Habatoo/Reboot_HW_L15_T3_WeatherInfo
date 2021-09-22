@@ -2,9 +2,74 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Weather info</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
+
+    <table>
+        <tr>
+            <th colspan="3"><h2>Прогноз погоды</h2></th>
+        </tr>
+        <tr>
+            <td>Город</td>
+            <td><input id="city" type="text"></td>
+            <td><button onclick="onButtonClicked()"> Найти </button></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <br>
+                 <hr>
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" id="main_d">
+            </th>
+            <td id="main"><output  type="text"></output></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" id="description_d">
+            </th>
+            <td id="description"><output  type="text"></output></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" id="temp_d">
+            </th>
+            <td id="temp"><output  type="text"></output></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" id="feels_like_d">
+            </th>
+            <td id="feels_like"><output  type="text"></output></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" id="wind_d">
+            </th>
+            <td id="wind"><output  type="text"></output></td>
+        </tr>
+    </table>
 
 </body>
 </html>
